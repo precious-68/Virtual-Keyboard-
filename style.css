@@ -12,7 +12,7 @@ body{
 .generalContainer{
         height: 100vh;
         width: 100vw;
-        font-size:1.3rem;
+        font-size:1rem;
         font-family: sans-serif;
         display: flex;
         flex-direction: column;
@@ -28,6 +28,10 @@ body{
         border-radius: 0.5rem;
         padding: 1rem;
         outline: none;
+        white-space: pre;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow-y: scroll;
 }
 
 .keyboard{
@@ -63,5 +67,9 @@ body{
 }
 
 .key:active{
+        background: whitesmoke;
+}
+
+.active{
         background: whitesmoke;
 }
